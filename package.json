@@ -1,6 +1,6 @@
 {
     "name": "@alisowski/decimal128",
-    "version": "16.0.1",
+    "version": "16.0.2",
     "type": "module",
     "description": "Partial implementation of IEEE 754 Decimal128 decimal floating-point numbers",
     "directories": {
