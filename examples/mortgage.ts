@@ -1,4 +1,4 @@
-import { Decimal128 } from "../src/Decimal128.mjs";
+import { Decimal128 } from "../src/Decimal128.js";
 import { pow } from "./pow.mjs";
 
 const one = new Decimal128("1");

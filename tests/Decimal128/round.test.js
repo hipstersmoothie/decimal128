@@ -1,6 +1,6 @@
-import { Decimal128 } from "../../src/Decimal128.mjs";
+import { Decimal128 } from "../../dist/esm/Decimal128.js";
 import { expectDecimal128 } from "./util.js";
-import { ROUNDING_MODES } from "../../src/common.mjs";
+import { ROUNDING_MODES } from "../../dist/esm/common.js";
 
 describe("rounding", () => {
     describe("no arguments (round to integer)", () => {

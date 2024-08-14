@@ -1,4 +1,4 @@
-import { Decimal128 } from "../../src/Decimal128.mjs";
+import { Decimal128 } from "../../dist/esm/Decimal128.js";
 
 const a = "4.1";
 const b = "1.25";

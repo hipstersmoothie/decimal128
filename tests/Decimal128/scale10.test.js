@@ -1,5 +1,5 @@
-import { Decimal128 } from "../../src/Decimal128.mjs";
-import { Decimal } from "../../src/Decimal.mjs";
+import { Decimal128 } from "../../dist/esm/Decimal128.js";
+import { Decimal } from "../../dist/esm/Decimal.js";
 
 describe("NaN", () => {
     test("throws", () => {

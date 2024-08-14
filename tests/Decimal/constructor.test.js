@@ -1,5 +1,5 @@
-import { Decimal } from "../../src/Decimal.mjs";
-import { Rational } from "../../src/Rational.mjs";
+import { Decimal } from "../../dist/esm/Decimal.js";
+import { Rational } from "../../dist/esm/Rational.js";
 
 describe("Decimal constructor", () => {
     test("fails if given zero", () => {
