@@ -13,9 +13,9 @@
  * @author Jesse Alama <jesse@igalia.com>
  */
 
-import { RoundingMode, ROUNDING_MODES } from "./common.mjs";
-import { Rational } from "./Rational.mjs";
-import { Decimal } from "./Decimal.mjs";
+import { RoundingMode, ROUNDING_MODES } from "./common.js";
+import { Rational } from "./Rational.js";
+import { Decimal } from "./Decimal.js";
 
 const EXPONENT_MIN = -6176;
 const EXPONENT_MAX = 6111;

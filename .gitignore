@@ -8,3 +8,5 @@ src/*.d.mts
 /examples/*.d.ts
 /examples/*.d.mts
 /examples/*.js
+.tshy
+.tshy-build

@@ -1,4 +1,4 @@
-import { Rational } from "./Rational.mjs";
+import { Rational } from "./Rational.js";
 
 const ratOne = new Rational(1n, 1n);
 const ratTen = new Rational(10n, 1n);

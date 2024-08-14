@@ -7,7 +7,7 @@ import {
     ROUNDING_MODE_HALF_EXPAND,
     ROUNDING_MODE_TRUNCATE,
     RoundingMode,
-} from "./common.mjs";
+} from "./common.js";
 
 const zero = BigInt(0);
 const one = BigInt(1);

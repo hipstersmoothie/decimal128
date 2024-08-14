@@ -1,7 +1,6 @@
 {
     "name": "decimal128",
     "version": "16.0.0",
-    "main": "src/Decimal128.js",
     "type": "module",
     "description": "Partial implementation of IEEE 754 Decimal128 decimal floating-point numbers",
     "directories": {
@@ -13,6 +12,7 @@
     },
     "sideEffects": false,
     "scripts": {
+        "build": "tshy",
         "test": "jest",
         "format": "prettier . --write",
         "lint": "prettier . --check",
@@ -40,6 +40,7 @@
         "jest-light-runner": "^0.6.0",
         "prettier": "^3.0.0",
         "ts-jest": "^29.1.0",
+        "tshy": "^3.0.2",
         "tsx": "^4.10.2",
         "typescript": "^5.1.3"
     },
@@ -49,7 +50,18 @@
             "url": "https://opensource.org/license/bsd-2-clause/"
         }
     ],
+    "tshy": {
+        "exports": {
+            ".": "./src/Decimal128.mts"
+        }
+    },
     "exports": {
-        ".": "./src/Decimal128.mjs"
-    }
+        ".": {
+            "import": {
+                "types": "./dist/esm/Decimal128.d.mts",
+                "default": "./dist/esm/Decimal128.mjs"
+            }
+        }
+    },
+    "module": "./dist/esm/Decimal128.mjs"
 }
